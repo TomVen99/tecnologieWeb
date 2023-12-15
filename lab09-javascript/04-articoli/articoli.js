@@ -15,7 +15,7 @@ const datiArticoli = [{
 
 const main = document.querySelector("main");
 for(let i=0; i<datiArticoli.length; i++) {
-    let articolo = 
+    let articolo = `
     <article>
         <header>
             <div>
@@ -30,7 +30,7 @@ for(let i=0; i<datiArticoli.length; i++) {
         <footer>
             <p><a href="#">Leggi tutto</a></p>
         </footer>
-    </article>;
+    </article>`;
 
     main.innerHTML += articolo;
 }
